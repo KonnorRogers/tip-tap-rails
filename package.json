@@ -8,7 +8,7 @@
     "@rails/actioncable": "^6.1.5",
     "@rails/actiontext": "^6.1.5",
     "@rails/activestorage": "^6.1.5",
-    "trix": "^2.0.0-beta.0",
-    "tip-tap-element": "link:../tip-tap-element"
+    "tip-tap-element": "link:../tip-tap-element",
+    "trix": "^2.0.0-beta.0"
   }
 }

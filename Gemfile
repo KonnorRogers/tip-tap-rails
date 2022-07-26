@@ -54,3 +54,5 @@ group :test do
 end
 
 gem "vite_rails", "~> 3.0"
+
+gem "aws-sdk-s3", "~> 1.114"
