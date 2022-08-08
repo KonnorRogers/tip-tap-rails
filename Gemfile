@@ -57,5 +57,7 @@ gem "vite_rails", "~> 3.0"
 
 gem "aws-sdk-s3", "~> 1.114"
 
-gem "cuprite", "~> 0.13", :group => :test
-gem "evil_systems", "~> 1.0", :group => :test
+# gem "cuprite", "~> 0.13", :group => :test
+gem "evil_systems", "~> 1.0", :group => :test, path: "../evil_systems/"
+
+# gem "capybara-shadowdom", :group => :test, github: "yuki24/capybara-shadowdom"
