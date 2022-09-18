@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.0.2"
+ruby "3.1.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.2", ">= 7.0.2.3"
@@ -58,6 +58,6 @@ gem "vite_rails", "~> 3.0"
 gem "aws-sdk-s3", "~> 1.114"
 
 # gem "cuprite", "~> 0.13", :group => :test
-gem "evil_systems", "~> 1.0", :group => :test, path: "../evil_systems/"
+gem "evil_systems", "~> 1.0", :group => :test
 
 # gem "capybara-shadowdom", :group => :test, github: "yuki24/capybara-shadowdom"
